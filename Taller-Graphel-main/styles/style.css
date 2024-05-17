@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+  background-color: rgb(36, 28, 28);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+
+}
+
+.color{
+    color: rgb(18, 170, 221);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  
+}
+
+.logo{
+   display: flex;
+   align-items: center;
+
+}
+
+#titulo {
+  color: white;
+  margin-right: 5px;
+}
+
+#titulo1 {
+  color: rgb(18, 170, 221);
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    background-color: rgb(18, 170, 221);
+    width: 100%;
+}
+  
+.tecnologia{
+    background-image: url("../assets/images/cabecera.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container1 {
+    max-width: 800px;
+    padding: 20px;
+    color: white;
+}
+
+.tecnologia h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.tecnologia p {
+    font-size: 18px;
+}
+
+
+.suscribir{
+background-color: black;
+padding: 20px 0;
+display: flex;
+align-items: center;
+
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.suscribir h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.suscribir form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.suscribir input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    width: 300px;
+}
+  
+.suscribir button[type="button"] {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+
+}
+
+.imagenes{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container3{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imagen{
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imagen h4  {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.imagen p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.final{
+    background-color: rgb(18, 170, 221);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.container4{
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   max-width: 960px;
+   margin: 0 auto;
+}
+
+/*
+estilos nosotros
+*/
+.content-container {
+    display: flex;
+    padding: 50px 0px 10px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.nosotros-content {
+    margin-right: 50px;
+    margin-left: 78px;
+    padding: 20px;
+}
+
+.que-hacemos-content {
+    margin-right: 80px;
+  
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+}
+
+.que-hacemos-header {
+    justify-content: end;
+    padding: 10px;
+}
+
+.tercer-texto {
+    justify-content: flex-start;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.image-container img {
+    margin-right: 180px;
+    margin-left: 8px;
+    width: 68%;
+    height: auto;
+}
+
+/*
+estilos servicios
+*/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.service {
+    background-color: #d8cdcd;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+.about {
+    flex: 1;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+/*
+estilos contactos
+*/
+.contact {
+    padding: 20px 0;
+    background-color: #f4f4f4;
+}
+
+.contact .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form, .contact-info {
+    width: 48%;
+}
+
+.contact-form h3, .contact-info h3 {
+    margin-top: 0;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    background-color: #ff4500;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-info img {
+    width: 100%;
+    height: auto;
+}
+.contact-info{
+    color: white;
+    background-color:rgb(41, 43, 42);
+}
+/*
+aqui termina
+*/
